@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# Downloaded videos shouldn't be tracked if you test in the repo folder
+*.mp4
+*.webm
+*.mkv
+
+# Virtual environment, if you use one
+venv/
+.venv/
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Background image — sourced from Pinterest, unclear license, not for redistribution
+Fallen.jpeg
