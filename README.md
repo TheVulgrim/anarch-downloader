@@ -6,6 +6,8 @@ A desktop video downloader built with Python, [yt-dlp](https://github.com/yt-dlp
    <p align="center">
      <img src="docs/Screenshot.png" width="700" alt="Anarch Downloader screenshot" />
    </p>
+
+
    
 ## Features
 
@@ -54,6 +56,9 @@ sudo apt install ffmpeg
 brew install ffmpeg
 ```
 
+> **Linux:** if the app won't start, install Tk first.
+> Fedora: `sudo dnf install python3-tkinter` · Debian/Ubuntu: `sudo apt install python3-tk`
+
 **Windows**
 Download from [ffmpeg.org](https://ffmpeg.org/download.html) and add it to your PATH.
 
@@ -72,3 +77,7 @@ python gui.py
 
 - Some sites use aggressive bot-detection and may intermittently fail or need a retry.
 - Download speed depends on the source site's rate limiting, not just your connection.
+- Sites change often. If downloads suddenly fail, update yt-dlp: `pip install -U yt-dlp`
+
+## Disclaimer
+For personal use only. Download only content you have the right to download, and respect the terms of service of the sites you use.
