@@ -2,6 +2,11 @@
 
 A desktop video downloader built with Python, [yt-dlp](https://github.com/yt-dlp/yt-dlp), and `customtkinter`. Supports YouTube and 1000+ other sites, with live progress, quality selection, thumbnail preview/embedding, and a cancel button.
 
+
+   <p align="center">
+     <img src="docs/Screenshot.png" width="700" alt="Anarch Downloader screenshot" />
+   </p>
+   
 ## Features
 
 - Paste a URL, preview the thumbnail before downloading
